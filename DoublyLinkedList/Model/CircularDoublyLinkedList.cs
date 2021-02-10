@@ -150,12 +150,12 @@ namespace DoublyLinkedList.Model
             {
                 if (current.Data.Equals(data))
                 {
-                    return $"Elements {data} is in the list.";
+                    return $"Element {data} is in the list.";
                 }
                 current = current.Next;
             }
 
-            return $"Elements {data} is not in the list.";
+            return $"Element {data} is not in the list.";
         }
 
         /// <summary>
